@@ -1,0 +1,83 @@
+Installation of Windows
+
+1. Looking for compatibility between my desktop and the Operating System Backed up my data
+2. Downloading of Windows operating system
+3. Downloading and the Installation Media Creation Tool. Creating Installation Media
+4. Running and downloading tool and following the on-screen instructions to create a bootable USB drive. Installed of Windows
+5. Inserted the USB drive into my PC and restarted.
+6. Booted from the USB drive (you might need to change the boot order in BIOS).
+
+
+
+Installation of Git
+
+1. Downloaded Git
+2. Installed Git
+3. Ran the downloaded installer.
+4. Followed the installation wizard and select the default options unless specific customizations are needed.
+5. Verification
+6. Opened Command Prompt and typed git --version to verify Git is installed.
+
+
+Installation of Python
+
+1. Downloaded Python
+2. Install Python:
+3. Ran the downloaded installer.
+4. Checked the box "Add Python to PATH".
+5. Select "Customize installation" if you need specific options, otherwise proceed with default settings.
+6. Verified Installation
+7. Opened Command Prompt and type python --version to verify Python is installed.
+8. Installed Python Packages
+9. Used pip (Python's package installer) to install additional packages as needed, e.g., pip install numpy.
+
+
+Installation MySQL Database
+
+1. Downloaded MySQL Installer.
+2. Install MySQL:
+3. Ran the downloaded installer.
+4. Selected "Developer Default" setup type for a complete installation.
+5. Followed the setup wizard, configuring the server and setting the root password as prompted.
+6. Verified Installation:
+7. Open MySQL Workbench and connect to the local MySQL server to verify the installation.
+
+Installation Visual Studio Code
+
+1. Downloaded Visual Studio Code
+2. Install Visual Studio Code:
+3. Ran the downloaded installer.
+4. Followed the installation wizard, keeping the default settings.
+5. Installed the Extensions
+6. Opened Visual Studio Code.
+7. Installed essential extensions like Python, GitLens, and MySQL.
+
+
+Configurations and Customizations
+Git Configuration
+
+a. git config --global user.name "Your Name"
+b. git config --global user.email "your.email@example.com"
+c. Set Default Editor:
+
+
+d. git config --global core.editor "code --wait"
+e. Python Virtual Environment
+f. Create Virtual Environment
+
+g. python -m venv myenv
+h. Activate Virtual Environment
+
+MySQL Configuration
+Secure Installation
+
+
+mysql_secure_installation
+Created a New User:
+
+SQL
+
+1. Created new user 'newuser'@'localhost' IDENTIFIED BY 'password'
+2. Granted all privileges *.* TO 'newuser'@'localhost'
+3. Visual Studio Code Customization
+
